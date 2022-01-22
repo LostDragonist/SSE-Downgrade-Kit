@@ -15,10 +15,10 @@ On 11/11/2021, Bethesda released The Elder Scrolls V: Skyrim - Anniversay Editio
    * Copy all the files from your Steam's `Skyrim Special Edition` folder to this `Stock Game` folder.
    * Configure MO2 to mod this game folder instead of Steam's folder.
 2. Set up the downgrade kit.
-   * Download the latest versions of [SSE.Downgrade.Kit.7z](https://github.com/LostDragonist/SSE-Downgrade-Kit/raw/main/SSE.Downgrade.Kit.7z) (click to download) and [SSE.Downgrade.Kit.7z.meta](https://raw.githubusercontent.com/LostDragonist/SSE-Downgrade-Kit/main/SSE.Downgrade.Kit.7z.meta) (right-click and `save as...` to download).
+   * Download the latest versions of [SSE.Downgrade.Kit.7z](https://github.com/LostDragonist/SSE-Downgrade-Kit/raw/main/SSE.Downgrade.Kit.7z) (click to download) and [SSE.Downgrade.Kit.7z.meta](https://raw.githubusercontent.com/LostDragonist/SSE-Downgrade-Kit/main/SSE.Downgrade.Kit.7z.meta) (right-click and `save link as...` to download).
    * Put those files in your downloads folder.
 3. Inline Bink
-   * Dowload the latest version of [WABBAJACK_NOMATCH_INCLUDE_FILES.txt](https://raw.githubusercontent.com/LostDragonist/SSE-Downgrade-Kit/main/WABBAJACK_NOMATCH_INCLUDE_FILES.txt) (right-click and `save as...` to download).
+   * Dowload the latest version of [WABBAJACK_NOMATCH_INCLUDE_FILES.txt](https://raw.githubusercontent.com/LostDragonist/SSE-Downgrade-Kit/main/WABBAJACK_NOMATCH_INCLUDE_FILES.txt) (right-click and `save link as...` to download).
    * Put this file in your `Stock Game` folder.
 4. Compile like normal with WJ!
 
