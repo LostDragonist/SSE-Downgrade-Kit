@@ -4,7 +4,7 @@
 
 On 11/11/2021, Bethesda released The Elder Scrolls V: Skyrim - Anniversay Edition and updated the game from 1.5.97 to 1.6.xxx. This changed modding in such a way that would forever create a schism between the 1.5.xxx versions and 1.6.xxx versions. That means sometimes you want one and sometimes you want the other.
 
-[Wabbajack](http://www.wabbajack.org/) (WJ) is usually able to convert automatically convert between the versions with a bit of binary patching but these changes were so extreme that's not really the case. This repo serves to remedy that problem.
+[Wabbajack](http://www.wabbajack.org/) (WJ) is usually able to convert automatically convert between different versions of the game with a bit of binary patching but some changes are so extreme that's not really the case. This repo serves to remedy that problem.
 
 ## How do I use this?
 
