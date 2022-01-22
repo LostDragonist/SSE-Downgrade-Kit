@@ -8,19 +8,19 @@ On 11/11/2021, Bethesda released The Elder Scrolls V: Skyrim - Anniversay Editio
 
 ## How do I use this?
 
-# Structure your game install as a "stock game install". (You can skip this if you already do all this.)
-## Delete your `Skyrim Special Edition` game folder.
-## Install the version of the game you want to mod with [Unofficial Skyrim Downloader](https://www.nexusmods.com/skyrimspecialedition/mods/61756) (or through some other method)
-## In your WJ folder with all the MO2 files, create a new folder called `Stock Game`. The exact name isn't important but this is the convention.
-## Copy all the files from your Steam's `Skyrim Special Edition` folder to this `Stock Game` folder.
-## Configure MO2 to mod this game folder instead of Steam's folder.
-# Set up the downgrade kit.
-## Download the latest versions of [SSE.Downgrade.Kit.7z](https://github.com/LostDragonist/SSE-Downgrade-Kit/raw/main/SSE.Downgrade.Kit.7z) and [SSE.Downgrade.Kit.7z.meta](https://raw.githubusercontent.com/LostDragonist/SSE-Downgrade-Kit/main/SSE.Downgrade.Kit.7z.meta).
-## Put those files in your downloads folder.
-# Inline Bink
-## Dowload the latest version of [WABBAJACK_NOMATCH_INCLUDE_FILES.txt](https://raw.githubusercontent.com/LostDragonist/SSE-Downgrade-Kit/main/WABBAJACK_NOMATCH_INCLUDE_FILES.txt).
-## Put this file in your `Stock Game` folder.
-# Compile like normal with WJ!
+1. Structure your game install as a "stock game install". (You can skip this if you already do all this.)
+   * Delete your `Skyrim Special Edition` game folder.
+   * Install the version of the game you want to mod with [Unofficial Skyrim Downloader](https://www.nexusmods.com/skyrimspecialedition/mods/61756) (or through some other method).
+   * In your WJ folder with all the MO2 files, create a new folder called `Stock Game`. The exact name isn't important but this is the convention.
+   * Copy all the files from your Steam's `Skyrim Special Edition` folder to this `Stock Game` folder.
+   * Configure MO2 to mod this game folder instead of Steam's folder.
+2. Set up the downgrade kit.
+   * Download the latest versions of [SSE.Downgrade.Kit.7z](https://github.com/LostDragonist/SSE-Downgrade-Kit/raw/main/SSE.Downgrade.Kit.7z) and [SSE.Downgrade.Kit.7z.meta](https://raw.githubusercontent.com/LostDragonist/SSE-Downgrade-Kit/main/SSE.Downgrade.Kit.7z.meta).
+   * Put those files in your downloads folder.
+3. Inline Bink
+   * Dowload the latest version of [WABBAJACK_NOMATCH_INCLUDE_FILES.txt](https://raw.githubusercontent.com/LostDragonist/SSE-Downgrade-Kit/main/WABBAJACK_NOMATCH_INCLUDE_FILES.txt).
+   * Put this file in your `Stock Game` folder.
+4. Compile like normal with WJ!
 
 ## How well does this work?
 
