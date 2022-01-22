@@ -4,11 +4,27 @@
 
 On 11/11/2021, Bethesda released The Elder Scrolls V: Skyrim - Anniversay Edition and updated the game from 1.5.97 to 1.6.xxx. This changed modding in such a way that would forever create a schism between the 1.5.xxx versions and 1.6.xxx versions. That means sometimes you want one and sometimes you want the other.
 
-[Wabbajack](http://www.wabbajack.org/) is usually able to convert automatically convert between the versions with a bit of binary patching but these changes were so extreme that's not really the case. This repo serves to remedy that problem.
+[Wabbajack](http://www.wabbajack.org/) (WJ) is usually able to convert automatically convert between the versions with a bit of binary patching but these changes were so extreme that's not really the case. This repo serves to remedy that problem.
 
 ## How do I use this?
 
-TBD
+# Structure your game install as a "stock game install". (You can skip this if you already do all this.)
+## Delete your `Skyrim Special Edition` game folder.
+## Install the version of the game you want to mod with [Unofficial Skyrim Downloader](https://www.nexusmods.com/skyrimspecialedition/mods/61756) (or through some other method)
+## In your WJ folder with all the MO2 files, create a new folder called `Stock Game`. The exact name isn't important but this is the convention.
+## Copy all the files from your Steam's `Skyrim Special Edition` folder to this `Stock Game` folder.
+## Configure MO2 to mod this game folder instead of Steam's folder.
+# Set up the downgrade kit.
+## Download the latest versions of [SSE.Downgrade.Kit.7z](https://github.com/LostDragonist/SSE-Downgrade-Kit/raw/main/SSE.Downgrade.Kit.7z) and [SSE.Downgrade.Kit.7z.meta](https://raw.githubusercontent.com/LostDragonist/SSE-Downgrade-Kit/main/SSE.Downgrade.Kit.7z.meta).
+## Put those files in your downloads folder.
+# Inline Bink
+## Dowload the latest version of [WABBAJACK_NOMATCH_INCLUDE_FILES.txt](https://raw.githubusercontent.com/LostDragonist/SSE-Downgrade-Kit/main/WABBAJACK_NOMATCH_INCLUDE_FILES.txt).
+## Put this file in your `Stock Game` folder.
+# Compile like normal with WJ!
+
+## How well does this work?
+
+Following the exact instructions above, the .wabbajack file ends up being about 2 GB in size. That's with just MO2, the game, and no mods. If you're using a mod like [Cleaned Skyrim SE Textures](https://www.nexusmods.com/skyrimspecialedition/mods/38775), or something else that replaces literally every texture in the game, then you can delete the `Skyrim - Textures X.bsa` files from your `Stock Game` folder. This will result in a .wabbajack only 133 MB in size.
 
 ## Do you have permission to do this?
 
